@@ -1,0 +1,193 @@
+
+/* Background color menu & pages */ 
+
+.contact, .service{
+    background-color: #039ae5a9;
+}
+
+/*  style Header 1 / Logo, search bar and Name agency  */
+
+.navbar{
+    background-color:#e1e7e7; 
+}
+
+.logo{
+    width: 240px;
+    height: 120px;
+    transition: width 2s, height 2s;
+}
+.logo:hover {
+    width: 260;
+    height: 150px;
+  }
+
+.name{
+    color: #039be5;
+    font-family: "Open Sans";
+    transition: transform 2s;
+}
+
+.name:hover{
+    transform: rotate(360deg);
+}
+
+.search-bar{
+    width:400px;
+    color: #039be5;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style header 2 / menu ( Home, About, Services, Contact) */ 
+
+.menu-anime {
+    transition:  0.3s ease;
+    color: #ffffff;
+}
+
+.menu-anime:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.block-menu{
+    width: 30%;
+    height: 70px;
+    background-color: #039ae5a9;
+    position: relative;
+    text-align: center;
+}
+
+/* Style Home page */
+
+.bkg-home{
+    width: 100%;
+    height: 870px;
+}
+
+.img_text{
+   position: relative;
+   width: 100%;
+}
+
+.text-block{
+    position: absolute;
+    font-family: "Open Sans";
+    top: 100px;
+    width: 100%;
+    color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+/* About page */
+
+.bkg-about{
+    background-color: #039ae5a9;
+}
+
+.img_text_about{
+    position: relative;
+    width: 100%;
+ }
+ 
+.text-block-about{
+     font-family: "Open Sans";
+     top: 100px;
+     color: white;
+     padding: 5px;
+     background-color:  rgba(0, 0, 0, 0.253);
+}
+
+.p-about{
+    font-family: "Open Sans";
+    font-size: 23px;
+}
+
+/* Style services page */
+
+.titel-service{
+    font-family: "Open Sans" sans-serif;
+    color: #039be5;
+}
+
+.detail-service{
+    font-family: "Open Sans" sans-serif;
+}
+
+/* Style Contact page */
+
+.contact-form{
+    width: 60%;
+}
+
+.titel-contact{
+    font-family: "Open Sans" sans-serif;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style Footer  */
+
+.animation-footer {
+    width: 15px;
+    height: 15px;
+    background-color: #01579b;
+    position: relative;
+    animation-name: animation-footer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes animation-footer {
+    0%   {background-color:#278fff; left:0px; top:0px;}
+    25%  {background-color:#73be1e; left:87%; top:0px;}
+    50%  {background-color:#278fff; left:87%; top:0px;}
+    75%  {background-color:#73be1e; left:0px; top:0px;}
+    100% {background-color:#039be0; left:0px; top:0px;}
+  
+}
+
+/* Make website Responsive */
+
+@media only screen {
+    .block-menu{
+        padding-top: 10px;
+    }
+    body{
+        width: auto;
+    }
+
+    header{
+        width: auto;
+    }
+
+    footer{
+        width: auto;
+    }
+
+}
+
+
+
+
